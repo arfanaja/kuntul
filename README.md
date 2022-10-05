@@ -31,7 +31,7 @@ Click the deploy icon below !
 > pkg install nodejs
 > pkg install ffmpeg
 > termux-setup-storage
-> git clone https://github.com/isman-IM/IsmanV3.git
+> git clone https://github.com/Isman-TM/IsmanV1.git
 > cd IsmanV1
 > yarn install
 > npm start
