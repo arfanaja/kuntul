@@ -497,15 +497,11 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'scviagithub1': {
-                m.reply('Belom Ada Kak')
+                m.reply('https://github.com/Isman-TM/IsmanV1')
             }
             break
             case 'scviagithub2': {
-                m.reply('Belom Ada Kak')
-            }
-            break
-            case 'scviagithub3': {
-                m.reply('Belom Ada Kak')
+                m.reply('https://github.com/Isman-TM/IsmanV2')
             }
             break
             case 'scismanv1': {
@@ -648,10 +644,8 @@ isman.sendMessage(m.chat, {audio: man2, mimetype:'audio/mpeg', ptt:true }, {quot
 │
 │➣ ${prefix}scviagithub1
 │➣ ${prefix}scviagithub2
-│➣ ${prefix}scviagithub3
 │➣ ${prefix}scismanv1
 │➣ ${prefix}scismanv2
-│➣ ${prefix}scismanv3
 │➣ ${prefix}sticker
 │➣ ${prefix}stickerwm
 │➣ ${prefix}join [link]
