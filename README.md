@@ -39,7 +39,7 @@ Click the deploy icon below !
 
 ## RDP/VPS USER
 ```bash 
-> git clone https://github.com/isman-IM/IsmanV3.git
+> git clone https://github.com/isman-IM/IsmanV1.git
 > cd IsmanV1
 > npm install
 > npm start
