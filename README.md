@@ -1,4 +1,4 @@
-# IsmanV3
+# IsmanV1
 ## Bot Whatsapp
 
 <p align="center">
@@ -7,7 +7,7 @@
 
 ## Github
 ```bash
- > https://github.com/isman-IM
+ > https://github.com/Isman-TM
 ```
 
 ## Heroku Buildpack
@@ -32,7 +32,7 @@ Click the deploy icon below !
 > pkg install ffmpeg
 > termux-setup-storage
 > git clone https://github.com/isman-IM/IsmanV3.git
-> cd IsmanV3
+> cd IsmanV1
 > yarn install
 > npm start
 ```
@@ -40,7 +40,7 @@ Click the deploy icon below !
 ## RDP/VPS USER
 ```bash 
 > git clone https://github.com/isman-IM/IsmanV3.git
-> cd IsmanV3
+> cd IsmanV1
 > npm install
 > npm start
 ```
