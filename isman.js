@@ -509,22 +509,16 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             }
             break
             case 'scismanv1': {
-            ana = fs.readFileSync('./sc/ISMANV1.zip')
+            ana = fs.readFileSync('./sc/ismanv1.zip')
                           man1 = fs.readFileSync('./sofovi/sc1.mp3')
 isman.sendMessage(m.chat, {audio: man1, mimetype:'audio/mpeg', ptt:true }, {quoted:m})
- isman.sendMessage(m.chat, {document: ana, mimetype: 'application/zip', fileName: `ISMANV1.zip`}, {quoted:m})}
+ isman.sendMessage(m.chat, {document: ana, mimetype: 'application/zip', fileName: `ismanv1.zip`}, {quoted:m})}
             break
             case 'scismanv2': {
-            ana = fs.readFileSync('./sc/ISMANV2.zip')
+            ana = fs.readFileSync('./sc/ismanv2.zip')
                           man2 = fs.readFileSync('./sofovi/sc2.mp3')
 isman.sendMessage(m.chat, {audio: man2, mimetype:'audio/mpeg', ptt:true }, {quoted:m})
- isman.sendMessage(m.chat, {document: ana, mimetype: 'application/zip', fileName: `ISMANV2.zip`}, {quoted:m})}
-            break
-            case 'scismanv3': {
-            ana = fs.readFileSync('./sc/ISMANV3.zip')
-                          man3 = fs.readFileSync('./sofovi/sc3.mp3')
-isman.sendMessage(m.chat, {audio: man3, mimetype:'audio/mpeg', ptt:true }, {quoted:m})
- isman.sendMessage(m.chat, {document: ana, mimetype: 'application/zip', fileName: `ISMANV3.zip`}, {quoted:m})}
+ isman.sendMessage(m.chat, {document: ana, mimetype: 'application/zip', fileName: `ismanv2.zip`}, {quoted:m})}
             break
             case 'session': {
             if (!isCreator) throw mess.owner
