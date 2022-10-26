@@ -2,9 +2,9 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 // NAMBAH BOLEH HAPUS JANGAN KAK
-global.owner = ['6282237949722','62895328935760','6285255312224']
-global.premium = ['6282237949722']
-global.packname = 'Pemakai Isman'
+global.owner = ['6281410528015','6285711808785']
+global.premium = ['6281410528015']
+global.packname = 'ArfanBotz〽️'
 global.author = 'Pembuat Sc Xavior'
 global.sessionName = 'Isman'
 global.prefa = ['','!','.','🐦','🐤','🗿']
