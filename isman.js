@@ -442,7 +442,7 @@ Selama ${clockString(new Date - user.afkTime)}`)
         switch(command) {
 	    case 'donasi': case 'donate': {
   goblok = fs.readFileSync('./sofovi/donasi.jpg')
-                isman.sendMessage(m.chat, { image: goblok, caption: `*Halo Kak 😁*\n\n ⭔https://wa.me/6282237949722` }, { quoted: m })
+                isman.sendMessage(m.chat, { image: goblok, caption: `*Halo Kak 😁*\n\n ⭔https://wa.me/6281410528015` }, { quoted: m })
             }
             case 'subscribe':{
             smeme = fs.readFileSync('./sofovi/bro.mp4')
@@ -660,10 +660,10 @@ isman.sendMessage(m.chat, {audio: man2, mimetype:'audio/mpeg', ptt:true }, {quot
 
 ┌──⭓ *THANKS TO*
 │
-│➣ *ISMAN*
-│➣ *DANIL*
-│➣ *VENOM*
-│➣ *GALAXY*
+│➣ *ArfanBotz〽️*
+│➣ *Apang〽️*
+│➣ *KampungPoelo〽️*
+│➣ *Pertigaan〽️*
 │
 └───────⭓
 
